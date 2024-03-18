@@ -1,0 +1,128 @@
+.brand-logo {
+    min-height: 70px;
+    padding: 12px 24px;
+}
+
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link,
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link.active,
+.sidebar-nav ul .sidebar-item>.sidebar-link.active {
+    background-color: #114c86;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #114c86;
+    border-color: #114c86;
+}
+
+.btn-primary:hover {
+    background-color: #114c86;
+    border-color: #114c86;
+}
+
+.btn-primary:active {
+    background-color: #114c86 !important;
+    border-color: #114c86;
+}
+
+.btn-outline-primary {
+    color: #114c86;
+    border-color: #114c86;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #114c86;
+    border-color: #114c86;
+}
+
+.btn-outline-primary:active {
+    color: #fff !important;
+    background-color: #114c86 !important;
+    border-color: #114c86 !important;
+}
+
+.text-primary {
+    color: #114c86 !important;
+}
+
+.sidebar .sidebar-body .nav .nav-item.active .nav-link {
+    color: #114c86;
+}
+
+.sidebar .sidebar-body .nav .nav-item.active .nav-link .link-icon {
+    color: #114c86;
+}
+
+.sidebar .sidebar-body .nav .nav-item.active .nav-link::before {
+    background-color: #114c86;
+}
+
+a {
+    color: #114c86;
+}
+
+a:hover {
+    color: #114c86 !important;
+}
+
+.page-link.active,
+.active>.page-link {
+    background-color: #114c86;
+    border-color: #114c86;
+}
+
+.page-link {
+    color: #114c86;
+}
+
+.sidebar .sidebar-body .nav .nav-item .nav-link::before {
+    background-color: #000 !important;
+}
+
+.sidebar .sidebar-body .nav.sub-menu .nav-item .nav-link {
+    height: 25px;
+    color: #000 !important;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar .sidebar-body .nav .nav-item .nav-link[aria-expanded=true] {
+    color: #114c86;
+}
+
+.sidebar .sidebar-body .nav.sub-menu .nav-item .nav-link.active::before {
+    background-color: #114c86 !important;
+}
+
+.sidebar .sidebar-body .nav.sub-menu .nav-item .nav-link.active {
+    color: #114c86 !important;
+}
+
+.sidebar .sidebar-body .nav.sub-menu .nav-item .nav-link.active::before {
+    background-color: #114c86;
+    border: 1px solid #114c86;
+}
+
+.sidebar .sidebar-body .nav .nav-item:hover .nav-link .link-icon {
+    color: #114c86 !important;
+    fill: rgba(239, 243, 255, 0.5);
+}
+
+.btn-primary:hover {
+    color: white !important;
+    background-color: #3b6994;
+}
+
+.table td img {
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+}
+
+.img-table-lightbox {
+    width: 100% !important;
+    height: 100px !important;
+    object-fit: cover;
+    border-radius: 0px !important;
+}

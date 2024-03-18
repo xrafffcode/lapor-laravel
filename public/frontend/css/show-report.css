@@ -1,0 +1,117 @@
+#map {
+    height: 180px;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+    z-index: 0 !important;
+}
+
+
+.header-nav {
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.1));
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+}
+
+.header-nav a {
+    color: #fff !important;
+}
+
+.header-nav #report-code {
+    display: none;
+    margin-bottom: 0;
+}
+
+.header-nav.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    animation: fadeInDown 0.5s;
+    background-color: #fff !important;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-nav.fixed-top a {
+    color: #000 !important;
+}
+
+.header-nav.fixed-top #report-code {
+    display: block;
+    font-size: 1rem;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    /* Add padding to the left for the timeline line */
+}
+
+.timeline-date {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.timeline-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.timeline-item article p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.timeline-item article img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Style the connector line */
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Adjusted to 0 */
+    width: 2px;
+    height: 100%;
+    background-color: #0066cc;
+}
+
+/* Style the connector dot */
+.timeline-item:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -4px;
+    /* Adjusted to -4px */
+    width: 10px;
+    height: 10px;
+    background-color: #0066cc;
+    border-radius: 50%;
+}
+
+.header-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
