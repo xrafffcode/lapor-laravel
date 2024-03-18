@@ -3,17 +3,6 @@
     <h5 class="fw-bold">Selamat datang di Lapor 👋</h5>
     <p>Silahkan masuk untuk melanjutkan</p>
 
-    <x-ui.base-button class="w-100 mt-4 py-2" type="button" color="light" icon="fab fa-google" icon-side="left"
-        icon-color="danger" href="{{ route('auth.google') }}">
-        Masuk dengan Google
-    </x-ui.base-button>
-
-    <div class="d-flex align-items-center mt-2">
-        <hr class="flex-grow-1">
-        <span class="mx-2">atau</span>
-        <hr class="flex-grow-1">
-    </div>
-
     <form action="{{ route('auth.login.store') }}" method="POST" class="mt-4">
         @csrf
         <x-forms.input type="email" name="email" placeholder="Email" class="py-2" />
